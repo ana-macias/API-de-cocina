@@ -47,7 +47,7 @@ API_URL = "http://localhost:5000"
 st.set_page_config(page_title="Tu asistente de Cocina 🍳", layout="wide")
 
 # Diseño de la interfaz
-st.title("🍳 Tu asistente de Cocina")
+st.title("🍳 ChefAI Tu asistente de Cocina")
 st.markdown("Pregunta lo que quieras sobre técnicas, recetas o ingredientes:")
 
 # Dividir input en columnas para controlar el ancho

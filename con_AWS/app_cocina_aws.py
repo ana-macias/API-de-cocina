@@ -73,7 +73,7 @@ def pront(pregunta):
             }), 400
         
         respuesta = modelo(pregunta)
-        guardar_consulta(pregunta, respuesta)
+    
         return jsonify({"respuesta": respuesta})
     
     except Exception as e:
