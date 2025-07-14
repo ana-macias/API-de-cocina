@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import groq
 from groq import Groq
 import os 
-from bdaws_cocina import crear_tabla_aws
+from bdaws_cocina import crear_tabla_aws 
 from bdaws_cocina import (  
     guardar_consulta_aws as guardar_consulta,
     obtener_historial_aws as obtener_historial
