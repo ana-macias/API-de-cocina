@@ -30,7 +30,7 @@ def guardar_consulta(pregunta: str, respuesta: str):
 # 4. Generamos un historial de  preguntas y respuestas almacenadas
 
 def obtener_historial():
-    conn = sqlite3.connect('consultas_cocina.db')
+    conn = sqlite3.connect('consultas_cocina.db') 
     cursor = conn.cursor()
     cursor.execute('SELECT pregunta, respuesta, fecha FROM preguntas_respuestas ORDER BY fecha DESC')
     resultados = cursor.fetchall()
